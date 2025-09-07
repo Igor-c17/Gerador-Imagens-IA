@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Imagens - Igor Carvalho</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="image_generator">
+      <div class="content">
+        <h1>Ferramenta de Geração de Imagens com IA em JavaScript</h1>
+        <p>
+          Transforme suas ideias em imagens em apenas segundos com esta poderosa ferramenta de geração de imagens por IA, desenvolvida com JavaScript.
+        </p>
+        <form action="" class="generate_form">
+          <input
+            type="text"
+            class="prompt_input"
+            placeholder="Descreva o que você deseja criar"
+            required
+          />
+          <div class="controls">
+            <select name="" id="" class="img_quantity">
+                <option value="1">1 Imagem</option>
+                <option value="2">2 Imagem</option>
+                <option value="3">3 Imagem</option>
+                <option value="4" selected>4 Imagem</option>
+            </select>
+            <button type="submit"class="generate_btn">Gerar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="image_gallery">
+        <div class="img_card">
+            <img src="images/img-1.jpg" alt="image">
+            <a href="#" class="download_btn">
+                <img src="images/download.svg" alt="download icon">
+            </a>
+        </div>
+        <div class="img_card">
+            <img src="images/img-2.jpg" alt="image">
+            <a href="#" class="download_btn">
+                <img src="images/download.svg" alt="download icon">
+            </a>
+        </div>
+        <div class="img_card">
+            <img src="images/img-3.jpg" alt="image">
+            <a href="#" class="download_btn">
+                <img src="images/download.svg" alt="download icon">
+            </a>
+        </div>
+        <div class="img_card">
+            <img src="images/img-4.jpg" alt="image">
+            <a href="#" class="download_btn">
+                <img src="images/download.svg" alt="download icon" style="fill: #fff!important;">
+            </a>
+        </div>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
